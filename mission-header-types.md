@@ -49,7 +49,7 @@ Only a few mission header values meaningfully affect how dangerous Escapists fee
 
 ## Comparison: Baseline vs Chaos Steps
 
-| Parameter | Baseline | Step 1 – Hotter | Step 2 – Oppressive | Step 3 – Brutal |
+| Parameter | Baseline | Option 1 – Hotter | Option 2 – Oppressive | Option 3 – Brutal |
 |--------|---------:|----------------:|--------------------:|----------------:|
 | `m_fCharacterSpawnChance` | 0.50 | 0.68 | 0.75 | 0.82 |
 | `m_fVehicleSpawnChance` | 0.55 | 0.65 | 0.70 | 0.75 |
@@ -64,11 +64,11 @@ Only the four chaos-driver values change between steps.
 
 ---
 
-## Step Presets (Drop-In Overrides)
+## Option Presets (Drop-In Overrides)
 
 Replace only these values in your existing mission header.
 
-### Step 1 — Noticeably Hotter (Recommended First)
+### Option 1 — Noticeably Hotter (Recommended First)
 
 ```json
 "m_fCharacterSpawnChance": 0.68,
@@ -84,7 +84,7 @@ Replace only these values in your existing mission header.
 
 ---
 
-### Step 2 — Oppressive Escapists
+### Option 2 — Oppressive Escapists
 
 ```json
 "m_fCharacterSpawnChance": 0.75,
@@ -100,7 +100,7 @@ Replace only these values in your existing mission header.
 
 ---
 
-### Step 3 — Brutal / Survival Mode
+### Option 3 — Brutal / Survival Mode
 
 ```json
 "m_fCharacterSpawnChance": 0.82,
