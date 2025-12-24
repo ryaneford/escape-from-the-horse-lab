@@ -74,7 +74,7 @@ Replace only these values in your existing mission header.
 "m_fCharacterSpawnChance": 0.68,
 "m_fVehicleSpawnChance": 0.65,
 "m_fDisabledLocationsRatio": 0.30,
-"m_iAmbientEventsFrequency": 90
+"m_iAmbientEventsFrequency": 90,
 ```
 
 **Feel**
@@ -90,7 +90,7 @@ Replace only these values in your existing mission header.
 "m_fCharacterSpawnChance": 0.75,
 "m_fVehicleSpawnChance": 0.70,
 "m_fDisabledLocationsRatio": 0.40,
-"m_iAmbientEventsFrequency": 110
+"m_iAmbientEventsFrequency": 110,
 ```
 
 **Feel**
@@ -106,7 +106,7 @@ Replace only these values in your existing mission header.
 "m_fCharacterSpawnChance": 0.82,
 "m_fVehicleSpawnChance": 0.75,
 "m_fDisabledLocationsRatio": 0.50,
-"m_iAmbientEventsFrequency": 130
+"m_iAmbientEventsFrequency": 130,
 ```
 
 **Feel**
@@ -122,7 +122,7 @@ For servers that want **strict daytime gameplay** (no NVGs):
 
 ```json
 "m_bRandomStartingTime": 0,
-"m_iStartHours": 10
+"m_iStartHours": 10,
 ```
 
 Leaving random start time enabled can still result in early/late low-light starts.
