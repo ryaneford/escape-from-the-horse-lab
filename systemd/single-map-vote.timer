@@ -1,0 +1,9 @@
+[Unit]
+Description=Run single-map-vote weekly, Monday 07:00 UTC (before the 08:00 daily restart)
+
+[Timer]
+OnCalendar=Mon *-*-* 07:00:00 UTC
+Persistent=true
+
+[Install]
+WantedBy=timers.target

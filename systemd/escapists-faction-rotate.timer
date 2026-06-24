@@ -1,0 +1,9 @@
+[Unit]
+Description=Run escapists-faction-rotate daily at 05:00 UTC (2h before the Monday map-vote restart)
+
+[Timer]
+OnCalendar=*-*-* 05:00:00 UTC
+Persistent=true
+
+[Install]
+WantedBy=timers.target

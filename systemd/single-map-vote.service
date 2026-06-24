@@ -1,0 +1,7 @@
+[Unit]
+Description=Weekly per-server single-map vote resolution (S1/S2 independent)
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /root/single-map-vote.py

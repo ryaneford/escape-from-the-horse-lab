@@ -1,0 +1,21 @@
+{
+  "maps": [
+    {"id": "arland",      "name": "Arland",         "missionConf": "{B76E6CFDF0560320}Missions/Escapists_Arland.conf",          "modId": null,             "modName": null,                   "eligible": true},
+    {"id": "eden",        "name": "Everon",         "missionConf": "{D8253A9909511193}Missions/Escapists_Eden.conf",            "modId": null,             "modName": null,                   "eligible": true},
+    {"id": "kolguyev",    "name": "Kolguyev",       "missionConf": "{45A046794EC4DE44}Missions/Escapists_Kolguyev.conf",        "modId": null,             "modName": null,                   "eligible": true},
+    {"id": "gogland",     "name": "Gogland",        "missionConf": "{9BF54068EAB61E9C}Missions/Escapists_Gogland.conf",         "modId": "627AB6E0887D25F1", "modName": "Escapists - Gogland",      "eligible": true},
+    {"id": "bergamo",     "name": "Bergamo",        "missionConf": "{A96FB54717E4134D}Missions/Escapists_Bergamo.conf",         "modId": "66F24B1E3F490612", "modName": "Escapists - Bergamo",      "eligible": true},
+    {"id": "new-ruha",    "name": "New Ruha",       "missionConf": "{A8F26574FF138D2F}Missions/Escapists_NewRuha.conf",         "modId": "6702771A9212CD73", "modName": "Escapists-New Ruha",       "eligible": true},
+    {"id": "denali",      "name": "Denali",         "missionConf": "{F7EAC0D02DEBEF33}Missions/Escapists - Denali.conf",        "modId": "66B42603981533FC", "modName": "Escapists - Denali",       "eligible": true},
+    {"id": "kunar",       "name": "Kunar",          "missionConf": "{437E23B467B4B3D2}Missions/Escapists_Kunar.conf",           "modId": "66F0599319595B99", "modName": "Escapists - Kunar",        "eligible": true},
+    {"id": "mussalo",     "name": "Mussalo",        "missionConf": "{E8FAA290EDDDAD73}Missions/Escapists_Mussalo.conf",         "modId": "67044DF530F8F417", "modName": "Escapists-Mussalo",        "eligible": true},
+    {"id": "armenhof",    "name": "Armenhof",       "missionConf": "{8BF88B5ABBDB6624}Missions/Escapists_Armenhof.conf",        "modId": "695C839DF6B81B98", "modName": "Escapists - Armenhof",     "eligible": true},
+    {"id": "new-prypiat",  "name": "New Prypiat",   "missionConf": "{8DCC6B7EF25E7751}Missions/Escapists - NewPrypiat.conf",    "modId": "68D1192709C5A21F", "modName": "Escapists - New Prypiat",  "eligible": true},
+    {"id": "al-hadra",    "name": "Al Hadra",       "missionConf": "{967C3968BA611281}Missions/Escapists-AL Hadra.conf",        "modId": "694648AE39A47D1D", "modName": "Escapists-AL Hadra",       "eligible": true},
+    {"id": "novka",       "name": "Novka",          "missionConf": "{B3E8DA8E90A5163D}Missions/Escapists_Novka.conf",           "modId": "65EAF855901297E9", "modName": "Escapists - Novka",        "eligible": true},
+    {"id": "serhiivka",   "name": "Serhiivka",      "missionConf": null, "modId": "68AF5BEFA8929D9F", "modName": "Escapists - Serhiivka",    "eligible": false},
+    {"id": "wake",        "name": "Wake",           "missionConf": null, "modId": "66F822B14DA74B25", "modName": "Escapists - Wake",         "eligible": false},
+    {"id": "vermont",     "name": "Vermont",        "missionConf": null, "modId": "6608C248C7E3F2C4", "modName": "Escapists - Vermont",      "eligible": false},
+    {"id": "vostokya",    "name": "Vostokya",       "missionConf": null, "modId": "68DCD35E25712748", "modName": "Escapists - Vostokya",     "eligible": false}
+  ]
+}

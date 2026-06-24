@@ -1,0 +1,7 @@
+[Unit]
+Description=Daily safe (non-colliding) Escapists player/occupying faction rotation
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /root/escapists-faction-rotate.py
