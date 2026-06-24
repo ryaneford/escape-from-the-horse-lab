@@ -20,10 +20,11 @@ for the full step-by-step guide.
 ## Requirements
 
 - Arma Reforger dedicated server **1.7.0.54 or later**. Several mods that
-  used to crash the server (Escapists Plus's full dependency closure,
-  including Rayzis Optics) work correctly as of 1.7.0.54, which fixed a
+  used to crash the server together (Escapists Plus + YobananaboY Weapon
+  Pack in particular) work correctly as of 1.7.0.54, which fixed a
   stack-overflow bug in "complex hierarchies/overrides of config files" —
-  exactly the bug class behind those crashes.
+  exactly the bug class behind those crashes. Confirmed live and crash-free
+  on both servers as of 2026-06-24.
 - AMP 2.8+ managing the instances (`ampinstmgr` CLI available to root).
 - Both instances' data under `/home/amp/.ampdata/instances/<instance-id>/`.
 

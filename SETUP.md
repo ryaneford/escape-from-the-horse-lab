@@ -56,12 +56,15 @@ This script backs up, stops the instance, rewrites only the `mods` field
 (leaving everything else untouched), chowns, restarts, and re-verifies the
 mod count survived the restart.
 
-**Don't add Rayzis Optics or anything from the Prontos family
-(Prontos Hub/Attachments/SA80/AR15s/Legacy Brit Kit/Fix for Warfare) or
-YobananaboY Weapon Pack alongside Escapists Plus** unless you've confirmed
-on a test instance first — this combination caused an EntityCatalog
-infinite-recursion crash historically. It may be fixed by 1.7.0.54's
-stack-overflow fix, but hasn't been re-verified as of this writing.
+**Update (2026-06-24): this is resolved.** Escapists Plus + YobananaboY
+Weapon Pack together used to crash the server with an EntityCatalog
+infinite-recursion error. As of Reforger 1.7.0.54's stack-overflow fix,
+this combination is confirmed working — it's the live baseline on both
+servers right now (`config/mod-list-s1.txt` / `mod-list-s2.txt` both
+include it, running with zero crashes). Rayzis Optics and the rest of the
+Prontos family (Prontos Hub/Attachments/SA80/AR15s/Legacy Brit Kit/Fix for
+Warfare) aren't in the current mod list either way, so they remain
+unverified — test those individually on a spare instance before adding.
 
 ## 3. missionHeader baseline
 
