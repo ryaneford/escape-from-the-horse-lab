@@ -8,6 +8,11 @@ This repo exists so the whole setup can be rebuilt from scratch on a fresh
 server without re-deriving everything by hand. See **[SETUP.md](SETUP.md)**
 for the full step-by-step guide.
 
+Also covers mod-specific notes that apply to any HorseLab instance on the
+same host, even non-Escapists ones — see **[DYNAMICLOOT.md](DYNAMICLOOT.md)**
+for getting the [DynamicLoot](https://github.com/wyqydsyq/DynamicLoot) addon
+actually spawning loot (it's a no-op without a second companion mod).
+
 ## What's in here
 
 - `scripts/` — the three automation scripts that run via systemd timers:
